@@ -527,24 +527,26 @@ button:hover {
   background-color: rgba(0, 0, 0, 0.7);
   overflow: hidden;
 }
+
 .modal img{
-	width:400px;
-	margin-top:100px;
-	margin-left:10%;
+	width:600px;
 }
 .modal-content {
-  max-width: 70%;
-  max-height: 70%;
+  max-width: 100%;
+  max-height: 100%;
+  padding:100px;
+  padding-left:200px;
+  
   margin: 5% auto;
   position: relative;
 }
 
 .close {
   color: white;
-  font-size: 30px;
+  font-size: 40px;
   position: absolute;
-  top: 5px;
-  right: 15px;
+  top: 125px;
+  right: 225px;
   cursor: pointer;
 }
 .close:hover{
